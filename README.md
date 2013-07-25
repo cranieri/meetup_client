@@ -8,6 +8,7 @@ A Ruby interface to the Meetup.com API.
 ## Quick Start Guide
 This gem is a simple and easy-to-use interface to the Meetup.com API.
 The methods you can call with the gem are:
+
 -categories
 
 -checkins
@@ -28,7 +29,7 @@ The methods you can call with the gem are:
 
 -streams
 
-The parameters for each request have to be passed with a hash 
+The parameters for each request have to be passed with a hash (i.e. { category: '1', city: 'London', country: 'GB', status: 'upcoming'} ) 
 
 First, [get a Meetup API key][register].
 
