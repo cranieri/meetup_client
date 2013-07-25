@@ -10,7 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Cosimo Ranieri"]
   s.email       = 'co.ranieri@gmail.com'
   s.files       = %w(README.md Rakefile meetup_client.gemspec)
-  s.files      += Dir.glob("lib/**/*")
+  s.files      += Dir.glob("lib/**/*.rb")
   s.files      += Dir.glob("spec/**/*")
-  s.version     = '0.0.2' 
+  s.version     = '0.0.3'
+  s.homepage    = 'https://rubygems.org/gems/meetup_client' 
 end

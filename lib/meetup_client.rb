@@ -1,4 +1,5 @@
 require 'meetup_client/configuration'
+require 'meetup_api'
 
 module MeetupClient
   class << self

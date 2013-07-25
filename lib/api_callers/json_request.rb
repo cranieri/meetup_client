@@ -1,3 +1,5 @@
+require 'api_callers/http_request'
+
 module ApiCallers
   class JsonRequest < HttpRequest
     CHARSET = 'UTF-8'
