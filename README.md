@@ -1,22 +1,31 @@
 # The Meetup Ruby Gem
 
-A Ruby interface to the Meetup API.
+A Ruby interface to the Meetup.com API.
 
 ## Installation
     gem install meetup_client
 
 ## Quick Start Guide
-This gem is a simple and easy-to-use interface to the Meetup API.
+This gem is a simple and easy-to-use interface to the Meetup.com API.
 The methods you can call with the gem are:
 -categories
+
 -checkins
+
 -cities
+
 -events
+
 -members
+
 -messaging
+
 -photos
+
 -profiles
+
 -rsvps
+
 -streams
 
 The parameters for each request have to be passed with a hash 
