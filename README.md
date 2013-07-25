@@ -50,7 +50,8 @@ end
     meetup_api = MeetupApi.new
     @events = meetup_api.open_events(params)
 ```
-
+Any response will be exactly what the Meetup API returns. In the case above, it will be a json containing 
+a list of events.
 
 ## Supported Ruby Versions
 This library aims to support and is [tested against][travis] the following Ruby
