@@ -86,4 +86,4 @@ of a major release, support for that Ruby version may be dropped.
 
 
 ## Copyright
-Copyright (c) 2006-2013 Cosimo Ranieri.
+Copyright (c) 2013 Cosimo Ranieri.
