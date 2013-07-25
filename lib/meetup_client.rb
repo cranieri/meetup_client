@@ -1,3 +1,5 @@
+require 'meetup_client/configuration'
+
 module MeetupClient
   class << self
     def configure(&block)

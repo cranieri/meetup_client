@@ -1,3 +1,6 @@
+require 'api_callers/json_request'
+require 'api_callers/http_requester'
+
 class MeetupApi
   BASE_URL = 'http://api.meetup.com/2/'
 
