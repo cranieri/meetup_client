@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.files       = %w(README.md Rakefile meetup_client.gemspec)
   s.files      += Dir.glob("lib/**/*.rb")
   s.files      += Dir.glob("spec/**/*")
-  s.version     = '0.0.5'
+  s.version     = '0.0.6'
   s.homepage    = 'https://rubygems.org/gems/meetup_client' 
   s.license     = 'MIT'
 end
