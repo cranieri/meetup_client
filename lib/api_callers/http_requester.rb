@@ -7,7 +7,7 @@ module ApiCallers
     end
 
     def execute_request
-      @requester.execute
+      @requester.make_request
     end
   end
 end
