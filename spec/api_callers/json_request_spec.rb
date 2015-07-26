@@ -9,7 +9,7 @@ describe ::ApiCallers::JsonRequest do
 
   describe "#format_response" do
     let(:expected_json) do
-      {"response" => 'I\'m the "Best"'}
+      { "response" => 'I\'m the "Best"' }
     end
 
     it "formats the response from meetup" do
