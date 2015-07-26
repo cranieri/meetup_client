@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name        = 'meetup_client'
-  s.date        = '2013-07-25'
+  s.date        = Time.now().strftime("%Y-%m-%d")
   s.summary     = "Easy way to access the Meetup.com API"
   s.description = "Easy way to access the Meetup.com API"
   s.authors     = ["Cosimo Ranieri"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.files       = %w(README.md Rakefile meetup_client.gemspec)
   s.files      += Dir.glob("lib/**/*.rb")
   s.files      += Dir.glob("spec/**/*")
-  s.version     = '0.0.7'
+  s.version     = '0.0.8'
   s.homepage    = 'https://rubygems.org/gems/meetup_client'
   s.license     = 'MIT'
   s.add_development_dependency "bundler", "~> 1.5"
