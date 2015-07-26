@@ -60,7 +60,7 @@ end
       format: 'json',
       page: '50'}
     meetup_api = MeetupApi.new
-    @events = meetup_api.open_events(params)
+    events = meetup_api.open_events(params)
 ```
 Any response will be exactly what the Meetup API returns. In the case above, it will be a json containing 
 a list of events.
@@ -69,7 +69,7 @@ If you want to perform a request without paramaters, an empty has needs to be se
 
 ```
   meetup_api = MeetupApi.new
-  @events = meetup_api.categories({})
+  events = meetup_api.categories({})
 ```
 
 ## Supported Ruby Versions
