@@ -7,8 +7,6 @@ require 'api_callers/json_request'
 require 'meetup_api'
 require 'meetup_client'
 require 'net/http'
-require 'active_support'
-require 'action_controller'
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
 #Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
