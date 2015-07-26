@@ -17,6 +17,8 @@ The methods you can call with the gem are:
 
 -events
 
+-open_events
+
 -members
 
 -messaging
