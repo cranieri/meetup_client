@@ -65,6 +65,13 @@ end
 Any response will be exactly what the Meetup API returns. In the case above, it will be a json containing 
 a list of events.
 
+If you want to perform a request without paramaters, an empty has needs to be sent. i.e.:
+
+```
+  meetup_api = MeetupApi.new
+  @events = meetup_api.open_events({})
+```
+
 ## Supported Ruby Versions
 This library aims to support and is [tested against][travis] the following Ruby
 implementations:
