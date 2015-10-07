@@ -23,7 +23,7 @@ module ApiCallers
     end
 
     def class_to_call
-      Kernel.const_get("Net::HTTP::#{@method.capitalize}")
+      Net::HTTP.const_get(@method.capitalize)
     end
 
   end
