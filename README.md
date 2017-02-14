@@ -31,11 +31,17 @@ The methods you can call with the gem are:
 
 -streams
 
-The parameters for each request have to be passed with a hash (i.e. { category: '1', city: 'London', country: 'GB', status: 'upcoming'} ) 
+The parameters for each request have to be passed with a hash (i.e. { category: '1', city: 'London', country: 'GB', status: 'upcoming'} )
 
 First, [get a Meetup API key][register].
 
-Then, create a new file config/initializers/meetup_client.rb, and put the following content in it:
+If you are using Rails, generate the meetup client initializer file by executing the following command
+
+```ruby
+  rails generate meetup_client:install
+```
+
+The command above will generate an initializers/meetup_client.rb file with the following command:
 
 ```ruby
 MeetupClient.configure do |config|
@@ -45,7 +51,7 @@ end
 
 [Have a look at the Meetup API website for details about the API] [check_api]
 
-[register]: http://www.meetup.com/meetup_api/key/ 
+[register]: http://www.meetup.com/meetup_api/key/
 [check_api]: http://www.meetup.com/meetup_api/
 
 ## Usage Examples
@@ -62,7 +68,7 @@ end
     meetup_api = MeetupApi.new
     events = meetup_api.open_events(params)
 ```
-Any response will be exactly what the Meetup API returns. In the case above, it will be a json containing 
+Any response will be exactly what the Meetup API returns. In the case above, it will be a json containing
 a list of events.
 
 If you want to perform a request without paramaters, an empty hash needs to be sent. i.e.:
