@@ -65,7 +65,7 @@ end
 Any response will be exactly what the Meetup API returns. In the case above, it will be a json containing 
 a list of events.
 
-If you want to perform a request without paramaters, an empty has needs to be sent. i.e.:
+If you want to perform a request without paramaters, an empty hash needs to be sent. i.e.:
 
 ```
   meetup_api = MeetupApi.new
