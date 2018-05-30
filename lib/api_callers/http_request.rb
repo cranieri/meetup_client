@@ -3,7 +3,7 @@ module ApiCallers
     CHARSET = 'UTF-8'
 
     def initialize(uri, method = 'get')
-      @in_uri = uri
+      @in_uri = URI.escape(uri)
       @method = method
     end
 
